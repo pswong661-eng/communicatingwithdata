@@ -21,7 +21,7 @@ A Streamlit analytics dashboard for Sounada Home Concept, an AKEMI home textile 
 |------|----------------|
 | **Overview** | Top-line KPIs: net sales, retail value, weighted margin, inventory days on hand |
 | **Store Performance** | Sales KPIs, discount rates, and customer productivity across 5 stores |
-| **Payment Analysis** | Payment method mix — Cash, Bank Transfer (ໂອນຈ່າຍ), Card, WeChat/Alipay |
+| **Payment Analysis** | Payment method mix — Cash, Bank Transfer, Card, WeChat/Alipay |
 | **Inventory Intelligence** | Highest-margin and highest-profit-potential products |
 | **Stock Alerts** | Stock shortages, surplus items, and high-profit items at stock-out risk |
 | **Chat Assistant** | Natural-language Q&A powered by Anthropic Claude (with OpenAI fallback) |
@@ -30,7 +30,7 @@ A Streamlit analytics dashboard for Sounada Home Concept, an AKEMI home textile 
 
 - **Weighted margin: 64.6%** — overall healthy, above the 60% green threshold
 - **Inventory days on hand: ~480** — significant overstock, cash tied up in inventory
-- **Primary payment method: Bank Transfer (ໂອນຈ່າຍ)** — 61% of transactions
+- **Primary payment method: Bank Transfer** — 61% of transactions
 - **Top profit drivers:** Tencel Ardent and Lofty Microfil lines dominate profit potential
 - **Stock shrinkage risk:** Multiple high-margin items in shortage — immediate restocking recommended
 
@@ -51,10 +51,10 @@ CSV exports from a PostgreSQL database built from Loyverse POS data for Sounada 
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt
+pip install -r app/requirements.txt
 
 # Run the app
-streamlit run app.py
+streamlit run app/app.py
 ```
 
 The chat assistant requires one of these environment variables:
@@ -76,18 +76,20 @@ Without an API key, the dashboard pages still work fully — the chat assistant 
 ## Project Structure
 
 ```
-app/
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-└── data/
-    ├── q1.csv             # Store sales KPIs
-    ├── q2.csv             # Payment method breakdown
-    ├── q3.csv             # Top 10 high-margin SKUs
-    ├── q4.csv             # Top 10 high-value SKUs
-    ├── q5.csv             # Stock surplus (over-counted)
-    ├── q6.csv             # Stock shortages
-    ├── q7.csv             # Inventory financial summary
-    ├── q8.csv             # Inventory turnover
-    ├── q9.csv             # Sales per customer signup
-    └── q10.csv            # High-profit stock shortage items
+├── README.md
+├── LICENSE
+└── app/
+    ├── app.py                 # Main Streamlit application
+    ├── requirements.txt       # Python dependencies
+    └── data/
+        ├── q1.csv             # Store sales KPIs
+        ├── q2.csv             # Payment method breakdown
+        ├── q3.csv             # Top 10 high-margin SKUs
+        ├── q4.csv             # Top 10 high-value SKUs
+        ├── q5.csv             # Stock surplus (over-counted)
+        ├── q6.csv             # Stock shortages
+        ├── q7.csv             # Inventory financial summary
+        ├── q8.csv             # Inventory turnover
+        ├── q9.csv             # Sales per customer signup
+        └── q10.csv            # High-profit stock shortage items
 ```
