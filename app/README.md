@@ -1,10 +1,10 @@
-# Sounada Home Concept — Retail Intelligence Dashboard
+# Sounada Home Concept (Laos) — Retail Intelligence Dashboard
 
 A Streamlit analytics dashboard for Sounada Home Concept, an AKEMI home textile retailer operating five stores in Vientiane, Laos. Built for the Quantic MSBA "Communicating with Data" capstone project.
 
 ## Business Case
 
-**Stakeholder:** Eric Wong, Owner of Sounada Home Concept
+**Stakeholder:** Eric Wong, Owner of Sounada Home Concept, Quantic MSBA School of Business and Technology
 
 **Decision needed:** How to optimise inventory, pricing, and store strategy to grow profitability while reducing excess stock and shrinkage.
 
