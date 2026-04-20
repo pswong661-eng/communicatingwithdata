@@ -1,4 +1,4 @@
-# Sounada Home Concept — Retail Intelligence Dashboard
+# Sounada Home Concept (Laos) — Retail Intelligence Dashboard
 
 A Streamlit analytics dashboard for Sounada Home Concept, an AKEMI home textile retailer operating five stores in Vientiane, Laos. Built for the Quantic MSBA "Communicating with Data" capstone project.
 
