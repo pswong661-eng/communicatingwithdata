@@ -1,6 +1,6 @@
 """
 Sounada Home Concept — Retail Intelligence Dashboard
-Streamlit analytics app for the Communicating with Data capstone.
+Streamlit analytics app for the Communicating with Data.
 """
 
 import streamlit as st
@@ -83,7 +83,7 @@ if page == "Overview":
     st.title("Sounada Home Concept — Retail Dashboard")
     st.markdown(
         """
-        **Stakeholder:** Eric Wong, Owner of Sounada Home Concept (AKEMI retail, Vientiane, Laos)
+        **Stakeholder:** Eric Wong, Owner of Sounada Home Concept (AKEMI retail, Vientiane, Laos), Quantic MSBA School of Business and Technology
 
         **Decision needed:** How to optimise inventory, pricing, and store strategy
         to grow profitability while reducing excess stock and shrinkage.
