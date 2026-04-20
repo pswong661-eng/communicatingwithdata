@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"C:/Users/Lenovo/Downloads/10 - Dev/Capstone/app\\\" && python -c \\\"\\nimport ast, sys\\nwith open('app.py') as f:\\n    try:\\n        ast.parse(f.read())\\n        print('Syntax OK')\\n    e...",
+  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"<string>\", line 5, in <module>\r\n    ast.parse(f.read())\r\n              ~~~~~~^^\r\n  File \"C:\\Python314\\Lib\\encodings\\cp1252.py\", line 23, in decode\r\n    return codecs.charmap_decode(input,self.errors,decoding_table)[0]\r\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nUnicodeDecodeError: 'charmap' codec can't decode byte 0x8f in position 552: character maps to <undefined>",
+  "timestamp": "2026-04-20T06:03:01.844Z",
+  "retry_count": 1
+}
