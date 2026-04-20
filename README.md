@@ -4,7 +4,7 @@ A Streamlit analytics dashboard for Sounada Home Concept, an AKEMI home textile 
 
 ## Business Case
 
-**Stakeholder:** Eric Wong, Owner of Sounada Home Concept
+**Stakeholder:** Eric Wong Poh Sang, Owner of Sounada Home Concept, Quantic MSBA School of Business and Technology
 
 **Decision needed:** How to optimise inventory, pricing, and store strategy to grow profitability while reducing excess stock and shrinkage.
 
