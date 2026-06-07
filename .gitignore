@@ -10,3 +10,6 @@ Thumbs.db
 
 # Claude Code / OMC
 .omc/
+
+# Business data — do not commit real sales figures
+app/data/*.csv
